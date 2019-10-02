@@ -285,28 +285,6 @@ article ul li a:hover {
 
 
 
-@media screen and (max-width: 1210px) {
-  .footer-container {
-    padding-right: 2em;
-    padding-left: 2em;
-  }
-}
-
-
-@media screen and (max-width: 1111px) {
-  article {
-    margin: 0.75em 0;
-  }
-}
-
-
-@media screen and (max-width: 579px) {
-  #footer-logo {
-    margin-bottom: 2em;
-  }
-}
-
-
 
 
 
