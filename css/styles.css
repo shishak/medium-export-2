@@ -307,20 +307,6 @@ article ul li a:hover {
 }
 
 
-@media screen and (max-width: 499px) {
-  .footer-bottom {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, min-max(300px, 1fr));
-  }
-
-  .footer-bottom ul {
-    margin: 0.5em 0;
-  }
-
-  .footer-bottom ul li {
-    margin: 0 0.5em 0 0;
-  }
-}
 
 
 
