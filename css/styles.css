@@ -215,12 +215,7 @@ footer {
   background: #f1f1f1;
 }
 
-.footer-main {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 1rem;
-  margin-bottom: 5em;
-}
+
 
 .footer-container {
   max-width: 1140px;
