@@ -280,3 +280,49 @@ article ul li a:hover {
 }
 
 
+
+
+
+
+
+@media screen and (max-width: 1210px) {
+  .footer-container {
+    padding-right: 2em;
+    padding-left: 2em;
+  }
+}
+
+
+@media screen and (max-width: 1111px) {
+  article {
+    margin: 0.75em 0;
+  }
+}
+
+
+@media screen and (max-width: 579px) {
+  #footer-logo {
+    margin-bottom: 2em;
+  }
+}
+
+
+@media screen and (max-width: 499px) {
+  .footer-bottom {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, min-max(300px, 1fr));
+  }
+
+  .footer-bottom ul {
+    margin: 0.5em 0;
+  }
+
+  .footer-bottom ul li {
+    margin: 0 0.5em 0 0;
+  }
+}
+
+
+
+
+
