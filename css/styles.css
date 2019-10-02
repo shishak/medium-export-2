@@ -193,8 +193,19 @@ h2 {
 
 
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: helvetica;
+}
 
-
+a,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
 
 #footer-logo {
   height: 45px;
@@ -215,7 +226,12 @@ footer {
   background: #f1f1f1;
 }
 
-
+.footer-main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 1rem;
+  margin-bottom: 5em;
+}
 
 .footer-container {
   max-width: 1140px;
@@ -303,16 +319,3 @@ article ul li a:hover {
     margin: 0 0.5em 0 0;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
